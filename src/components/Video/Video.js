@@ -16,8 +16,8 @@ function Video({title,description,path,size,_id,createdAt}) {
             <p>{timeago.format(createdAt)}</p>
             </div>
             <div className="video-actions" style={{display:"flex",justifyContent:"space-around"}}> 
-             <button>Upload</button>
-            <button>Delete</button>
+             <button style={{backgroundColor:"#1B1464",color:"white"}}>Edit</button>
+            <button style={{backgroundColor:"#5758BB",color:"white"}}>Delete</button>
             </div>
         </div>
     )
