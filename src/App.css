@@ -1,3 +1,5 @@
-.main__navbar {
-  background-color: red;
+nav {
+  background-color: "#5f27cd";
+  width: 100vw;
+  padding: 0.6rem;
 }

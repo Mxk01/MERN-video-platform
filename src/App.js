@@ -15,7 +15,7 @@ function App() {
     return (
         <Router>
       <div>
-        <nav style={{backgroundColor:"#2f3640",padding:'0.6rem'}}>
+        <nav style={{backgroundColor:"#5f27cd",padding:'0.6rem'}}>
           <ul>
             <li  >
               <Link style={{color:"white",textDecoration:"none"}} to="/"><HomeIcon/></Link>
