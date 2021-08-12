@@ -9,5 +9,5 @@ function Video({title,description,path,size,_id}) {
         </div>
     )
 }
-
+ 
 export default Video
