@@ -75,7 +75,9 @@ function Upload() {
    }
     return (
         <div className="video__upload">
-            <form className="video__form" onSubmit={(e)=>uploadVideo(e)}>
+            <form className="video__form" 
+            onSubmit={(e)=>uploadVideo(e)}
+            >
             {
                file ? ( <video src={ URL.createObjectURL(file)} controls ref={elementRef}
                 onClick = {()=>{
