@@ -1,0 +1,64 @@
+.video__upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  width: 80vw;
+  flex-direction: column;
+}
+input {
+  outline: none;
+}
+input[type="file"] {
+  display: none;
+}
+label {
+  background-color: #546de5;
+  color: white;
+  padding: 0.6rem;
+  width: 10vw;
+
+  font-family: sans-serif;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="submit"] {
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 10vw;
+  margin: 10px;
+  border: 0;
+  background-color: #ff0080;
+  color: white;
+}
+input[type="text"] {
+  width: 10vw;
+  border: 0;
+  border: 1px solid black;
+  border-radius: 0.6rem;
+  padding: 0.5rem;
+  margin: 5px;
+}
+
+video {
+  width: 400px;
+  height: 400px;
+}
+@media only screen and (max-width: 600px) {
+  input[type="text"],
+  input[type="submit"],
+  label {
+    width: 60vw;
+  }
+}
+.video__form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
