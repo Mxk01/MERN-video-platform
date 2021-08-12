@@ -1,4 +1,23 @@
 .video {
   width: 500px;
   height: 400px;
+  margin-bottom: 25px;
+  margin-top: 10px;
+}
+.user__avatar {
+  object-fit: cover;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+.sub__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+button {
+  border: 0;
+  padding: 20px;
+  width: 100px;
+  border-radius: 20px;
 }

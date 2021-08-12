@@ -2,12 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 10rem;
+
   width: 80vw;
   flex-direction: column;
 }
 input {
   outline: none;
+  width: 30vw;
 }
 input[type="file"] {
   display: none;
@@ -16,7 +17,7 @@ label {
   background-color: #546de5;
   color: white;
   padding: 0.6rem;
-  width: 10vw;
+  width: 30vw;
 
   font-family: sans-serif;
   border-radius: 0.5rem;
@@ -31,7 +32,7 @@ input[type="submit"] {
   padding: 0.6rem;
   border-radius: 0.5rem;
   cursor: pointer;
-  width: 10vw;
+  width: 30vw;
   margin: 10px;
   border: 0;
   background-color: #ff0080;
@@ -49,6 +50,7 @@ input[type="text"] {
 video {
   width: 400px;
   height: 400px;
+  width: 30vw;
 }
 @media only screen and (max-width: 600px) {
   input[type="text"],

@@ -15,6 +15,8 @@ function Upload() {
 
 
    let [title,setTitle] = useState("");
+   let [thumbnail,setThumbnail] = useState("");
+
    let [file,setFile] = useState(null);
    let history = useHistory(); 
     let [description,setDescription] = useState("");
@@ -24,7 +26,8 @@ function Upload() {
        
        let newVideo = {
         title,
-        description
+        description,
+        // thumbnail
     }
     console.log(file)
        if(file)
@@ -91,10 +94,12 @@ function Upload() {
             ></video>) :  ( <video src={" "}></video>)
                     
               }
-            <input type="text" onChange={(e)=>setTitle(e.target.value)} placeholder="Title" />
+                          {/* <input type="text" onChange={(e)=>setThumbnail(e.target.value)} placeholder="Thumbnail" /> */}
+
+            <input type="text" style={{width:"30vw"}} onChange={(e)=>setTitle(e.target.value)} placeholder="Title" />
              <input type="file" onChange={(e)=>setFile(e.target.files[0])} id="upload_btn" />
              
-            <input type="text" onChange={(e)=>setDescription(e.target.value)} placeholder="Description" />
+            <input type="text" style={{width:"30vw"}} onChange={(e)=>setDescription(e.target.value)} placeholder="Description" />
             <label htmlFor="upload_btn">Upload video <BackupSharpIcon/></label>
             <input type="submit" value="Submit"/>
             </form>

@@ -2,7 +2,8 @@ import React from 'react'
  import  Navbar from './components/Navbar/Navbar.js'
  import  Upload from './components/Upload/Upload.js'
  import  AllVideos from './components/AllVideos/AllVideos.js'
-
+ import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
+ import HomeIcon from '@material-ui/icons/Home';
 
  import {
     BrowserRouter as Router,
@@ -14,13 +15,13 @@ function App() {
     return (
         <Router>
       <div>
-        <nav>
+        <nav style={{backgroundColor:"#2f3640",padding:'0.6rem'}}>
           <ul>
-            <li>
-              <Link to="/">Home</Link>
+            <li  >
+              <Link style={{color:"white",textDecoration:"none"}} to="/"><HomeIcon/></Link>
             </li>
             <li>
-              <Link to="/upload">Upload</Link>
+              <Link to="/upload" style={{color:"white",textDecoration:"none"}}><ArrowUpwardIcon/></Link>
             </li>
             
           </ul>

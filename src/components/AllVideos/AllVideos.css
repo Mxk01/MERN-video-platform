@@ -2,4 +2,13 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(4, 1fr);
+  padding: 2rem;
+}
+@media only screen and (max-width: 600px) {
+  .videos__grid {
+    display: grid;
+    grid-template-columns: repeat(auto, 1fr);
+    grid-template-rows: repeat(auto, 1fr);
+    padding: 2rem;
+  }
 }
