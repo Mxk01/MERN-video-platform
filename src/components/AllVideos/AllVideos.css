@@ -1,14 +1,18 @@
 .videos__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
   padding: 2rem;
+}
+
+.videos__grid > .video__item {
+  margin-top: 50px;
 }
 @media only screen and (max-width: 600px) {
   .videos__grid {
     display: grid;
-    grid-template-columns: repeat(auto, 1fr);
-    grid-template-rows: repeat(auto, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
     padding: 2rem;
   }
 }

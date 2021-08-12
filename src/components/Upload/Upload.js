@@ -78,6 +78,7 @@ function Upload() {
    }
     return (
         <div className="video__upload">
+            <header className="main__header"></header>
             <form className="video__form" 
             onSubmit={(e)=>uploadVideo(e)}
             >

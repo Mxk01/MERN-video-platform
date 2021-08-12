@@ -19,7 +19,7 @@ function AllVideos() {
     return (
         <div className="videos__grid">
              {
-             videos.map((video)=>(<Video {...video}/>))
+             videos.map((video)=>(<Video className="video__item" {...video}/>))
              }
          </div>
     )
