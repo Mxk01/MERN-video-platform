@@ -63,7 +63,9 @@ video {
 .video__form {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  margin-top: -150px;
+  justify-content: center;
+  align-items: center;
 }
 .main__header {
   background: url("https://images.unsplash.com/photo-1542303472-cfd3fa4eb337?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2134&q=80");

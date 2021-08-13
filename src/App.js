@@ -20,9 +20,17 @@ function App() {
             <li  >
               <Link style={{color:"white",textDecoration:"none"}} to="/"><HomeIcon/></Link>
             </li>
-            <li>
-              <Link to="/upload" style={{color:"white",textDecoration:"none"}}><ArrowUpwardIcon/></Link>
+            <div> 
+            <li style={{display:"flex",justifyContent:"center",alignItems:"center"}} >
+             
+             
             </li>
+            </div>
+
+            <li>
+               <Link to="/upload" style={{color:"white",textDecoration:"none"}}><ArrowUpwardIcon/></Link>
+            </li>
+            
             
           </ul>
         </nav>

@@ -22,7 +22,9 @@ function Video({title,description,path,size,_id,createdAt}) {
             <h2>{title}</h2>
             </div>
             <div style={{display:"flex",flexDirection:"column"}}> 
-            <p>{description}</p>
+            <p style={{maxWidth:"250px", wordBreak: "break-word"
+
+}}>{description}</p>
 
             <p> Posted {timeago.format(createdAt)} by : </p>
                          </div>
