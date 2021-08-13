@@ -18,7 +18,7 @@ function Video({title,description,path,size,_id,createdAt}) {
         <div className="video">
              <video controls src={`http://localhost:5000/videos/${path}`}></video>
             <div className="sub__container"> 
-            <img className="user__avatar" src="https://i0.wp.com/butwhythopodcast.com/wp-content/uploads/2020/08/noticia-1597169895-meliodas.jpg?resize=800%2C440&ssl=1" alt="" />
+            <img className="user__avatar" src="https://i.pinimg.com/474x/9f/a8/06/9fa806c665d9cfdb3a594c3250de1478.jpg" alt="" />
             <h2>{title}</h2>
             </div>
             <div style={{display:"flex",flexDirection:"column"}}> 
