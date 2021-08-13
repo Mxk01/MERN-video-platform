@@ -3,6 +3,7 @@
   height: 400px;
   margin-bottom: 25px;
   margin-top: 10px;
+  margin-bottom: 30vh;
 }
 .user__avatar {
   object-fit: cover;
