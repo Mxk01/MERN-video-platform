@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# MERN-Video-platform
 
 
 ![video-upload1](https://user-images.githubusercontent.com/61979889/129392246-490a60e6-57ca-45fb-88a2-6c1d4bd79e8c.JPG)
